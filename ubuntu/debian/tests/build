@@ -20,7 +20,7 @@ project(test VERSION 1.0.0)
 # Find gz-cmake5
 #============================================================================
 # If you get an error at this line, you need to install gz-cmake5
-find_package(gz-cmake5 REQUIRED)
+find_package(gz-cmake REQUIRED)
 
 #============================================================================
 # Set up the project
