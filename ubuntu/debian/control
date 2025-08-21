@@ -22,3 +22,11 @@ Description: Gazebo CMake Library - Development files
  third party projects against them. It provides modules that are used to find
  dependencies of Gazebo projects and generate cmake targets for consumers of
  Gazebo projects to link against.
+
+Package: gz-jetty-cmake
+Depends: libgz-cmake5-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Jetty without exposing the version number.
