@@ -1,3 +1,9 @@
+gz-cmake5 (5.0.0-1~noble) noble; urgency=medium
+
+  * gz-cmake5 5.0.0-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 26 Sep 2025 10:50:53 -0500
+
 gz-cmake5 (5.0.0~pre1-1~noble) noble; urgency=medium
 
   * gz-cmake5 5.0.0~pre1-1 release
