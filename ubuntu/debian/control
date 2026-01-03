@@ -1,4 +1,4 @@
-Source: gz-cmake5
+Source: gz-cmake6
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -10,7 +10,7 @@ Vcs-Git: https://github.com/gazebosim/gz-cmake.git
 Standards-Version: 4.5.1
 Homepage: http://gazebosim.org/
 
-Package: libgz-cmake5-dev
+Package: libgz-cmake6-dev
 Architecture: any
 Section: libdevel
 Depends: cmake, ${misc:Depends}
@@ -24,7 +24,7 @@ Description: Gazebo CMake Library - Development files
  Gazebo projects to link against.
 
 Package: gz-jetty-cmake
-Depends: libgz-cmake5-dev (= ${binary:Version}), ${misc:Depends}
+Depends: libgz-cmake6-dev (= ${binary:Version}), ${misc:Depends}
 Architecture: all
 Priority: optional
 Section: metapackages

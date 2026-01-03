@@ -1,11 +1,6 @@
-gz-cmake5 (5.0.0-1~noble) noble; urgency=medium
+gz-cmake6 (5.999.999-1~noble) noble; urgency=medium
 
-  * gz-cmake5 5.0.0-1 release
+  * Stub to be removed after first entry
 
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 26 Sep 2025 10:50:53 -0500
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Sat, 03 Jan 2026 00:03:19 +0000
 
-gz-cmake5 (5.0.0~pre1-1~noble) noble; urgency=medium
-
-  * gz-cmake5 5.0.0~pre1-1 release
-
- -- Addisu Z. Taddese <addisu@openrobotics.org>  Thu, 21 Aug 2025 12:45:51 -0500
