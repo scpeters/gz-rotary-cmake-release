@@ -14,6 +14,8 @@ Package: libgz-cmake-dev
 Architecture: any
 Section: libdevel
 Depends: cmake, ${misc:Depends}
+Conflicts: libgz-cmake5-dev,
+           libgz-cmake6-dev
 Multi-Arch: same
 Description: Gazebo CMake Library - Development files
  CMake modules to be used by the Gazebo projects.
