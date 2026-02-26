@@ -14,8 +14,10 @@ Package: libgz-cmake-dev
 Architecture: any
 Section: libdevel
 Depends: cmake, ${misc:Depends}
-Conflicts: libgz-cmake5-dev,
-           libgz-cmake6-dev
+# The generic identity for Jetty and beyond
+Provides: libgz-cmake-dev-generic
+# Conflicts with the future (generic)
+Conflicts: libgz-cmake-dev-generic
 Multi-Arch: same
 Description: Gazebo CMake Library - Development files
  CMake modules to be used by the Gazebo projects.
