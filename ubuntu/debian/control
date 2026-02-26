@@ -1,4 +1,4 @@
-Source: gz-cmake6
+Source: gz-cmake
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
@@ -10,10 +10,14 @@ Vcs-Git: https://github.com/gazebosim/gz-cmake.git
 Standards-Version: 4.5.1
 Homepage: http://gazebosim.org/
 
-Package: libgz-cmake6-dev
+Package: libgz-cmake-dev
 Architecture: any
 Section: libdevel
 Depends: cmake, ${misc:Depends}
+# The generic identity for Jetty and beyond
+Provides: libgz-cmake-dev-generic
+# Conflicts with the future (generic)
+Conflicts: libgz-cmake-dev-generic
 Multi-Arch: same
 Description: Gazebo CMake Library - Development files
  CMake modules to be used by the Gazebo projects.
@@ -22,3 +26,11 @@ Description: Gazebo CMake Library - Development files
  third party projects against them. It provides modules that are used to find
  dependencies of Gazebo projects and generate cmake targets for consumers of
  Gazebo projects to link against.
+
+Package: libgz-rotary-cmake-dev
+Depends: libgz-cmake-dev (= ${binary:Version}), ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: metapackages
+Description: alias package
+ Provides a package for Rotary without exposing the version number.
